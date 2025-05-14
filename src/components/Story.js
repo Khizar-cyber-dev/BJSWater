@@ -30,7 +30,7 @@ function Story() {
               Our <span className="text-black">Story</span>
             </h1>
             <motion.p 
-              className="text-md font-medium text-gray-500 mt-4"
+              className="text-md font-medium text-gray-500 mt-4 px-4"
               initial={{ opacity: 0, y: 60 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1.5 }}

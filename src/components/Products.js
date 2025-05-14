@@ -76,7 +76,7 @@ const Products = () => {
   return (
     <Element name="products">
       <div className="bg-blue-50 w-full py-16">
-        <div className="">
+        <div>
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -91,12 +91,12 @@ const Products = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5 }}
             viewport={{ once: true }}
-            className="text-center text-md text-gray-500 mt-2"
+            className="text-center text-md text-gray-500 mt-2 px-4"
           >
             Bottle we deliver is always clean, safe, and refreshing.
           </motion.h3>
 
-          <div className="mt-12 w-[90%] ml-[5%]">
+          <div className="mt-12 w-[90%] mx-auto flex justify-center items-center">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {products.map((product) => (
                 <ProductCard

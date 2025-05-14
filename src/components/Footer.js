@@ -61,7 +61,6 @@ const Footer = () => {
                   Contact Us
                 </h3>
                 <ul className="text-white text-md ml-2">
-                  <li>Tulspura Diyal House</li>
                   <li>Call us: +92 334 230 1234</li>
                 </ul>
               </div>

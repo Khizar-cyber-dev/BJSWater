@@ -6,7 +6,7 @@ import { Element } from "react-scroll";
 const composition = () => {
   return (
     <Element name="composition">
-      <div className="mt-10 w-full" id="box">
+      <div className="mt-10 w-full mb-10" id="box">
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

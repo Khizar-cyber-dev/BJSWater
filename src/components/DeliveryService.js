@@ -28,7 +28,7 @@ const DeliveryService = () => {
              <img
                 src={delivery}
                 alt="delivery"
-                className="w-full h-auto max-w-[100%] md:max-w-[300px] lg:max-w-[350px] object-contain rounded-md"
+                className="w-full h-auto max-w-[100%] md:max-w-[300px] lg:max-w-[350px] object-contain rounded-md p-8 md:p-0"
               />
             </motion.div>
             <motion.div
