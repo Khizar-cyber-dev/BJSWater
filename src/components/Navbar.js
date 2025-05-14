@@ -32,7 +32,7 @@ const Navbar = () => {
       viewport={{ once: true }} 
       className="backdrop-blur-sm bg-blue-50 rounded-lg fixed top-0 left-0 w-full z-50 shadow-md"
     >
-      <div className="max-w-7xl mx-auto md:mx-[4%] px-4 sm:px-6 lg:px-8 h-[80px] flex justify-between items-center">
+      <div className="h-[80px] flex justify-between items-center w-[90%] ml-[5%]">
         {/* Logo */}
         <div className="flex items-center">
           <img src={logo} alt="BJS Logo" className="h-6 sm:h-10" />

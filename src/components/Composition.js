@@ -21,14 +21,14 @@ const composition = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
-          className="text-center text-xl mt-10 px-2 md:px-0"
+          className="text-center text-xl mt-10 px-4 md:px-2"
         >
           The human body is made up of 60% water. It is essential for life and
           plays a crucial role
            in maintaining our health.
         </motion.h3>
-        <div className="flex justify-center items-center w-full">
-          <div className="flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center w-full max-w-6xl px-[3%]">
+        <div className="w-full">
+          <div className="flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center w-[90%] ml-[5%]">
             {/* Left Column */}
             <motion.div
               initial={{ opacity: 0, x: -40 }}

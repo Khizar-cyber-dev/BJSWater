@@ -6,16 +6,16 @@ import { Element } from "react-scroll";
 
 const Hero = () => {
   return (
-    <Element name="Hero">
+    <Element name="Hero" className="w-full bg-blue-50">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true, amount: 0.8 }}
-        className="pt-[90px] bg-blue-50 flex flex-col-reverse gap-14 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 w-full"
+        className="pt-[90px] flex flex-col-reverse gap-14 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 w-[90%] ml-[5%]"
         id="home"
       >
-        <div className="tracking-wide flex justify-center align-center md:w-[60%]">
+        <div className="tracking-wide flex justify-start align-center md:w-[60%]">
           <div className="w-[95%] md:w-[75%]">
             <motion.h1
               initial={{ x: -30, opacity: 0 }}

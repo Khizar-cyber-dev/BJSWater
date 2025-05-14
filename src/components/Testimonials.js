@@ -83,7 +83,7 @@ const settings = {
 };
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 md:px-18 py-16 relative z-10">
+    <div className="w-[90%] ml-[5%] py-16 relative z-10">
       <Slider {...settings} pauseOnHover={true}>
         {cards.map((d) => (
           <motion.div key={d.name} className="px-2" initial={{ opacity: 0, y: 200}} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>

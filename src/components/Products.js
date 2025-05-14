@@ -72,26 +72,28 @@ const Products = () => {
         },
       ];
   return (
-   <Element name="products">
-       <div className='bg-blue-50 mt-10 py-10 ' id="products">
-        <motion.h1 initial={{ opacity: 0 , y : 40}} whileInView={{ opacity: 1 , y : 0}} transition={{ duration: 1 }} viewport={{ once: true }} className='text-center text-4xl font-semibold px-2 md:px-0'>Choose Your Water</motion.h1>
-        <motion.h3 initial={{ opacity: 0 , y : 40}} whileInView={{ opacity: 1 , y : 0}} transition={{ duration: 1.5 }} viewport={{ once: true }} className='text-center text-md text-gray-500 mt-2 px-2 md:px-0'>Bottle we deliver is always clean, safe, and refreshing.</motion.h3>
+   <Element name="products bg-blue-50 w-full">
+       <div className='bg-blue-50 w-full'>
+          <div className='mt-10 py-10 w-[90%] ml-[5%]' id="products">
+            <motion.h1 initial={{ opacity: 0 , y : 40}} whileInView={{ opacity: 1 , y : 0}} transition={{ duration: 1 }} viewport={{ once: true }} className='text-center text-4xl font-semibold px-2 md:px-0'>Choose Your Water</motion.h1>
+            <motion.h3 initial={{ opacity: 0 , y : 40}} whileInView={{ opacity: 1 , y : 0}} transition={{ duration: 1.5 }} viewport={{ once: true }} className='text-center text-md text-gray-500 mt-2 px-2 md:px-0'>Bottle we deliver is always clean, safe, and refreshing.</motion.h3>
 
-        <div className="container mx-auto py-10">
-        <div className="flex justify-around flex-wrap lg:flex-nowrap gap-3 mx-[6%]">
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            imgSrc={product.imgSrc}
-            title={product.title}
-            description={product.description}
-            motionProps={product.motion}
-            onClick={() => navigate(`/product/${product.id}`)}
-          />
-        ))}
-      </div>
+            <div className="container w-full py-10">
+                <div className="flex justify-around flex-wrap lg:flex-nowrap gap-10 w-full">
+                    {products.map((product) => (
+                      <ProductCard
+                        key={product.id}
+                        imgSrc={product.imgSrc}
+                        title={product.title}
+                        description={product.description}
+                        motionProps={product.motion}
+                        onClick={() => navigate(`/product/${product.id}`)}
+                      />
+                    ))}
+                </div>
+            </div>
+          </div>
         </div>
-    </div>
    </Element>
   )
 }
