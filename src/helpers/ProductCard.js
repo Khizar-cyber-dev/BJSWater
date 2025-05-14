@@ -17,7 +17,7 @@ const ProductCard = ({
       whileInView={motionProps.animate}
       transition={motionProps.transition}
       viewport={{ once: true }}
-      className="cursor-pointer bg-white rounded-lg shadow-lg p-5 text-center relative overflow-hidden w-[260px]"
+      className="cursor-pointer bg-white rounded-lg shadow-lg p-5 text-center relative overflow-hidden w-[270px]"
     >
       {isOnSale && (
         <div className="absolute top-2 right-2 bg-blue-500 text-white px-2 py-1 rounded-full text-xs">
