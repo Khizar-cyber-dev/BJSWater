@@ -12,7 +12,7 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true, amount: 0.8 }}
-        className="pb-10 pt-[90px] flex flex-col-reverse gap-14 p-0 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 w-[90%] ml-[5%]"
+        className="pb-10 pt-[90px] flex flex-col-reverse gap-14 p-0 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 container px-16 mx-auto"
         id="home"
       >
         <div className="tracking-wide flex justify-center md:justify-start align-center md:w-[60%]">

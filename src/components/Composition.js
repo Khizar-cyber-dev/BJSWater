@@ -28,7 +28,7 @@ const composition = () => {
            in maintaining our health.
         </motion.h3>
         <div className="w-full">
-          <div className="flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center w-[90%] ml-[5%]">
+          <div className="flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center container px-14 mx-auto">
             {/* Left Column */}
             <motion.div
               initial={{ opacity: 0, x: -40 }}
@@ -89,7 +89,7 @@ const composition = () => {
               viewport={{ once: true }}
               className="flex justify-center items-center w-[320px]"
             >
-              <img src={glass} alt="glass" className="w-80 animate-glass-spin" />
+              <img src={glass} alt="glass" className="w-full md:w-80 animate-glass-spin" />
             </motion.div>
 
             {/* Right Column */}
