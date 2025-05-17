@@ -12,10 +12,10 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true, amount: 0.8 }}
-        className="pt-[90px] flex flex-col-reverse gap-14 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 w-[90%] ml-[5%]"
+        className="pb-10 pt-[90px] flex flex-col-reverse gap-14 p-0 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 w-[90%] ml-[5%]"
         id="home"
       >
-        <div className="tracking-wide flex justify-start align-center md:w-[60%]">
+        <div className="tracking-wide flex justify-center md:justify-start align-center md:w-[60%]">
           <div className="w-[95%] md:w-[75%]">
             <motion.h1
               initial={{ x: -30, opacity: 0 }}
@@ -70,12 +70,12 @@ const Hero = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
           viewport={{ once: true }}
-          className="flex items-center w-[50%] relative"
+          className="flex items-center w-[80%] md:w-[50%] relative"
         >
           <motion.img
             src={bjsWater}
             alt="profile"
-            className="w-[80%] h-3/4 md:h-1/4 z-[1] ml-[0px] md:ml-[15px]"
+            className="w-[80%] h-auto md:h-1/4 z-[1] ml-[0px] md:ml-[15px]"
             animate={{ y: [0, -5, 0] }}
             transition={{
               duration: 3,

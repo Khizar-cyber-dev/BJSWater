@@ -21,7 +21,7 @@ const composition = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true }}
-          className="text-center text-xl mt-10 px-4 md:px-2"
+          className="text-center text-xl mt-10 px-4 md:px-3"
         >
           The human body is made up of 60% water. It is essential for life and
           plays a crucial role
