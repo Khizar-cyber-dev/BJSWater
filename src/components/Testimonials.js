@@ -88,7 +88,7 @@ const settings = {
       <h1 className="text-center text-3xl font-semibold mb-10">
         What Our Customers Say
       </h1>
-      <Slider {...settings} pauseOnHover={true}>
+      <Slider {...settings} pauseOnHover={true} className='@container mx-auto'>
         {cards.map((d) => (
           <motion.div key={d.name} className="px-2" initial={{ opacity: 0, y: 200}} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
             <div className="bg-white h-[450px] text-black rounded-xl">
