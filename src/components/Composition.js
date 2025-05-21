@@ -28,7 +28,7 @@ const composition = () => {
            in maintaining our health.
         </motion.h3>
         <div className="w-full">
-          <div className="container flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center px-14 mx-auto">
+          <div className="@container flex justify-between gap-10 md:gap-0 flex-col md:flex-row items-center px-14 mx-auto">
             {/* Left Column */}
             <motion.div
               initial={{ opacity: 0, x: -40 }}

@@ -12,7 +12,7 @@ const Hero = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5 }}
         viewport={{ once: true, amount: 0.8 }}
-        className="container pb-10 pt-[90px] flex flex-col-reverse gap-14 p-0 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 px-16 mx-auto"
+        className="@container pb-10 pt-[90px] flex flex-col-reverse gap-14 p-0 md:gap-0 md:flex-row items-center justify-center min-h-screen md:min-h-0 px-16 mx-auto"
         id="home"
       >
          {/* LEFT CONTENT */}

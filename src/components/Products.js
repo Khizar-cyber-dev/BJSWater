@@ -105,7 +105,7 @@ const Products = () => {
                   title={product.title}
                   description={product.description}
                   motionProps={product.motion}
-                  onClick={() => navigate(`/product/${product.id}`)}
+                  onClick={() => {}}
                 />
               ))}
             </div>
